@@ -23,6 +23,8 @@ def main():
             controllers.handle_sport_choice(sport_name)
         elif choice == "3":
             controllers.handle_all_athletes_choice()
+        else:
+            print("Такой цифры не существует")
 
 if __name__ == "__main__":
     main()
